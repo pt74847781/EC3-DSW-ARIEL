@@ -8,7 +8,7 @@ GET {{server}}/categorias
 POST {{server}}/categorias
 Content-Type: application/json
 
-{"nombre": "Instrumentos de Cuerda"}
+{"nombre": "Instrumentos de cuerda"}
 ################ Instrumentos: ################
 ###
 GET {{server}}/instrumentos
@@ -16,7 +16,7 @@ GET {{server}}/instrumentos
 POST {{server}}/instrumentos
 Content-Type: application/json
 
-{"nombre": "Guitarra", "categoria": "http://localhost/api/ec3/categorias/1"}
+{"nombre": "Guitarra222", "categoria": "http://localhost/categorias/2"}
 ###
 GET {{server}}/instrumentos/1/categoria
 ###
