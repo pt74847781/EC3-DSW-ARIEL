@@ -6,7 +6,7 @@ import org.springframework.data.repository.query.Param;
 import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 import java.util.List;
 
-@RepositoryRestResource(collectionResourceRel = "/api/ec3", path = "instrumentos")
+@RepositoryRestResource(collectionResourceRel = "instrumentos", path = "instrumentos")
 public interface instrumentoRepository extends PagingAndSortingRepository<instrumento, Integer>,CrudRepository<instrumento, Integer> {
     
     List<instrumento> findByNombre(@Param("nombre") String nombre);
