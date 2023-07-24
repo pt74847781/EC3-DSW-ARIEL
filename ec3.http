@@ -1,4 +1,4 @@
-@server = https://pt74847781-upgraded-couscous-7g44499xp99cp99w-8080.preview.app.github.dev
+@server = https://ec3-ariel.onrender.com
 @api = {{server}}/api/ec3
 
 ################ Categorias: ################
